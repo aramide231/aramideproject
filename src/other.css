@@ -1,0 +1,363 @@
+.CustomSignUpScreen {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background: white;
+  }
+  
+  .CustomUnsplash9pjbx5uvblg {
+    width: 622px;
+    height: 1024px;
+    left: 0;
+    top: 0;
+    position: absolute;
+  }
+  
+  .CustomRectangle2 {
+    width: 622px;
+    height: 1024px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.50);
+  }
+  
+  
+  .CustomFrame43244 {
+    left: 36px;
+    top: 385px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    display: inline-flex;
+  }
+  
+  .CustomChatter {
+    color: white;
+    font-size: 48px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    line-height: 72px;
+    word-wrap: break-word;
+  }
+  
+  .CustomUnleashThePowerOfWordsConnectWithLikeMindedReadersAndWriters {
+    width: 550px;
+    color: white;
+    font-size: 24px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    line-height: 36px;
+    word-wrap: break-word;
+  }
+  
+  .CustomFrame43259 {
+    left: 650px;
+    top: 26px;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    display: inline-flex;
+  }
+  
+  .CustomIconsaxLinearArrowcircleleft {
+    width: 30px;
+    height: 30px;
+    position: relative;
+  }
+  
+  .CustomVector {
+    width: 25px;
+    height: 25px;
+    left: 2.50px;
+    top: 2.50px;
+    position: absolute;
+    border: 2px #495057 solid;
+  }
+  
+  .CustomVector + .CustomVector {
+    width: 4.40px;
+    height: 8.82px;
+    left: 12.17px;
+    top: 10.59px;
+    position: absolute;
+    border: 2px #495057 solid;
+  }
+  
+  .CustomBack {
+    color: #55524F;
+    font-size: 14px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    line-height: 21px;
+    word-wrap: break-word;
+  }
+  
+  .CustomFrame43263 {
+    left: 763px;
+    top: 354px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 48px;
+    display: inline-flex;
+  }
+  
+  .CustomFrame43262 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 48px;
+    display: flex;
+  }
+  
+  .CustomFrame43261 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    display: flex;
+  }
+  
+  .CustomEnterConfirmationCode {
+    color: black;
+    font-size: 32px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    line-height: 48px;
+    word-wrap: break-word;
+  }
+  
+  .CustomWeEmailedYouACodePleaseInputTheCodeHereForAccountVerification {
+    color: #626262;
+    font-size: 16px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+  }
+  
+  .CustomFrame43260 {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    display: inline-flex;
+  }
+  
+  .CustomInputMediumSelectDefault {
+    width: 106.12px;
+    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 12px;
+    background: white;
+    box-shadow: 0px 0px 1px rgba(33, 37, 41, 0.08);
+    border-radius: 8px;
+    border: 1px #CED4DA solid;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .CustomFrame43250 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    display: flex;
+  }
+  
+  .CustomFrame4 {
+    width: 520px;
+    height: 56px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: #543EE0;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    display: inline-flex;
+  }
+  
+  .CustomCreateAccount {
+    color: white;
+    font-size: 18px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    line-height: 27px;
+    word-wrap: break-word;
+  }
+
+  
+
+
+  .CustomGroup42895 {
+    width: 510px;
+    height: 420px;
+    position: relative;
+  }
+  
+  .CustomFrame10625 {
+    width: 470px;
+    height: 420px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    display: inline-flex;
+  }
+  
+  .CustomFrame43239 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 56px;
+    display: flex;
+  }
+  
+  .CustomFrame43238 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    display: flex;
+  }
+  
+  .CustomGroup43229 {
+    width: 120px;
+    height: 120px;
+    position: relative;
+  }
+  
+  .CustomEllipse16 {
+    width: 120px;
+    height: 120px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #EEFFF0;
+    border-radius: 9999px;
+    border: 0.50px #CBF4CF solid;
+  }
+  
+  .CustomStatusSuccessIcon1 {
+    width: 80px;
+    height: 80px;
+    left: 20px;
+    top: 20px;
+    position: absolute;
+  }
+  
+  .CustomVector {
+    width: 80px;
+    height: 80px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #0E8A1A;
+  }
+  
+  .CustomVector + .CustomVector {
+    width: 20.12px;
+    height: 20.13px;
+    left: 18.33px;
+    top: 37.71px;
+    position: absolute;
+    background: #0E8A1A;
+  }
+  
+  .CustomVector + .CustomVector + .CustomVector {
+    width: 29.53px;
+    height: 29.52px;
+    left: 32.31px;
+    top: 28.33px;
+    position: absolute;
+    background: #0E8A1A;
+  }
+  
+  .CustomYourAccountHasBeenCreatedSuccessfully {
+    width: 340px;
+    text-align: center;
+    color: #495057;
+    font-size: 18px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+  }
+  
+  .CustomFrame28 {
+    width: 376px;
+    height: 56px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: #543EE0;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    display: inline-flex;
+  }
+  
+  .CustomCreateAccount {
+    color: white;
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 28px;
+    letter-spacing: 0.40px;
+    word-wrap: break-word;
+  }
+  
+  .CustomIconsaxOutlineClosecircle {
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    left: 478px;
+    top: 3px;
+    position: absolute;
+    border-radius: 32px;
+    overflow: hidden;
+    border: 2px white solid;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    display: inline-flex;
+  }
+  
+  .CustomGroup114 {
+    width: 12px;
+    height: 12px;
+    position: relative;
+  }
+  
+  .CustomVector {
+    width: 12px;
+    height: 12px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: white;
+  }
+  

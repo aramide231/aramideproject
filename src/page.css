@@ -1,0 +1,150 @@
+.Frame2 {
+  width: 100%;
+  height: 98px;
+  position: relative;
+  border: 1px solid #D0D0D0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Chatter {
+  color: #543EE0;
+  font-size: 48px;
+  font-family: 'DM Sans';
+  font-weight: 700;
+  line-height: 72px;
+}
+
+.Frame43357 {
+  display: flex;
+  align-items: center;
+}
+
+.Frame1, .Frame5 {
+  display: flex;
+  gap: 24px;
+}
+
+.Frame1{
+  display: flex;
+  justify-content: space-around;
+}
+
+.Frame3, .Frame4 {
+  width: 157px;
+  height: 56px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.Frame4 {
+  background: #543EE0;
+}
+
+@media (max-width: 768px) {
+  .Frame2 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .Frame43357 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .Frame1, .Frame5 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+ 
+
+  .Frame3, .Frame4 {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+/* second box */
+
+.Frame14 {
+  width: px;
+  height: 764px;
+  position: relative;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.Frame6 {
+  width: 984px;
+  padding-bottom: 74px;
+  left: 228px;
+  top: 216px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  display: inline-flex;
+}
+
+.Frame13 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 36px;
+  display: flex;
+}
+
+.Frame12 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  display: flex;
+}
+
+.WelcomeToChatterAHavenForTextBasedContent {
+  width: 984px;
+  color: white;
+  font-size: 48px;
+  font-family: 'DM Sans';
+  font-weight: 700;
+  line-height: 72px;
+  word-wrap: break-word;
+}
+
+.UnleashThePowerOfWordsConnectWithLikeMindedReadersAndWriters {
+  width: 740px;
+  color: white;
+  font-size: 24px;
+  font-family: 'DM Sans';
+  font-weight: 500;
+  line-height: 36px;
+  word-wrap: break-word;
+}
+
+.Frame5 {
+  width: 157px;
+  height: 56px;
+  padding: 8px 16px;
+  background: #543EE0;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+}
+
+.GetStarted {
+  color: white;
+  font-size: 18px;
+  font-family: 'DM Sans';
+  font-weight: 700;
+  line-height: 27px;
+  word-wrap: break-word;
+}
