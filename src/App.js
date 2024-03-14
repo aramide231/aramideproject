@@ -10,7 +10,7 @@ import LandingPage from './components/landingpage';
 function App() {
   return (
     <div className="App">
- <LandingPage/>
+ <LoginScreen/>
 
     </div>
   );

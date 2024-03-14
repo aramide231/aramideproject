@@ -1,16 +1,10 @@
-import React, { useState } from 'react';
-import '../App.css';
+import React from 'react';
+import '../login.css';
 import Logo from "./assets/unsplash_9pjBx5uVBlg.png"
 import google from "./assets/1534129544 1.png"
 import linkendn from "./assets/174857 1.png"
 
 function LoginScreen() {
-  
-  // const [page,setPage ]= useState(LoginScreen)
-
-  // const handleClick= () =>{
-  //   setPage(login)
-  // }
   return (
     <div className='loginScreen'>
       <div className="SignUpScreen">

@@ -1,4 +1,4 @@
-.Frame2 {
+/* .Frame2 {
   width: 100%;
   height: 98px;
   position: relative;
@@ -26,7 +26,7 @@
   gap: 24px;
 }
 
-.Frame1{
+.Frame1 {
   display: flex;
   justify-content: space-around;
 }
@@ -50,37 +50,37 @@
   .Frame2 {
     flex-direction: column;
     height: auto;
+    justify-content: flex-start; 
+    padding: 10px; 
   }
 
   .Frame43357 {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
+    width: 100%;
   }
 
   .Frame1, .Frame5 {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
- 
-
   .Frame3, .Frame4 {
     width: 100%;
-    justify-content: space-between;
+    margin-bottom: 10px; 
   }
 }
 
-/* second box */
+
 
 .Frame14 {
-  width: px;
+  width: 100%;
   height: 764px;
   position: relative;
   background: rgba(0, 0, 0, 0.55);
 }
 
 .Frame6 {
-  width: 984px;
   padding-bottom: 74px;
   left: 228px;
   top: 216px;
@@ -109,7 +109,6 @@
 }
 
 .WelcomeToChatterAHavenForTextBasedContent {
-  width: 984px;
   color: white;
   font-size: 48px;
   font-family: 'DM Sans';
@@ -119,7 +118,6 @@
 }
 
 .UnleashThePowerOfWordsConnectWithLikeMindedReadersAndWriters {
-  width: 740px;
   color: white;
   font-size: 24px;
   font-family: 'DM Sans';
@@ -129,7 +127,6 @@
 }
 
 .Frame5 {
-  width: 157px;
   height: 56px;
   padding: 8px 16px;
   background: #543EE0;
@@ -148,3 +145,435 @@
   line-height: 27px;
   word-wrap: break-word;
 }
+
+@media (max-width: 768px) {
+  .Frame2 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .Frame13 {
+    text-align: center; 
+  }
+}
+
+.Frame15 {
+  width: 1296px;
+  height: 404px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 84px;
+  display: inline-flex;
+}
+
+.Frame11 {
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  display: flex;
+}
+
+.Frame10 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 34px;
+  display: inline-flex;
+}
+
+.AboutChatter {
+  color: #111111;
+  font-size: 48px;
+  font-family: 'DM Sans';
+  font-weight: 700;
+  line-height: 72px;
+  word-wrap: break-word;
+}
+
+.ChatterDescription {
+  width: 686px;
+  color: #111111;
+  font-size: 18px;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  line-height: 27px;
+  word-wrap: break-word;
+}
+
+.Unsplash87glifoj79c {
+  width: 500px;
+  height: 404px;
+  border-radius: 8px;
+}
+
+
+.Wrapper {
+  width: 1040px;
+  height: 555px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 54px;
+  display: inline-flex;
+}
+
+.Container {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  display: flex;
+}
+
+.Title {
+  color: #111111;
+  font-size: 48px;
+  font-family: 'DM Sans';
+  font-weight: 700;
+  line-height: 72px;
+  word-wrap: break-word;
+}
+
+.Description {
+  width: 1040px;
+  color: #111111;
+  font-size: 18px;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  line-height: 27px;
+  word-wrap: break-word;
+}
+
+.Features {
+  justify-content: flex-start;
+  align-items: center;
+  gap: 48px;
+  display: inline-flex;
+}
+
+.Feature {
+  width: 306px;
+  height: 324px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px #d0d0d0 solid;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  display: inline-flex;
+}
+
+.IconContainer {
+  width: 92px;
+  height: 88px;
+  position: relative;
+}
+
+.Icon {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+
+.Vector {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  background: black;
+}
+
+.FeatureTitle {
+  color: #111111;
+  font-size: 24px;
+  font-family: 'DM Sans';
+  font-weight: 500;
+  line-height: 36px;
+  word-wrap: break-word;
+}
+
+.FeatureDescription {
+  width: 254px;
+  color: #626262;
+  font-size: 18px;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  line-height: 27px;
+  word-wrap: break-word;
+}
+
+
+.Container {
+  width: 1440px;
+  height: 492px;
+  position: relative;
+  background: rgba(255, 237, 204, 0.50);
+}
+
+.Content {
+  left: 440px;
+  top: 93px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  display: inline-flex;
+}
+
+.Text {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 48px;
+  display: flex;
+}
+
+.Quote {
+  width: 924px;
+  color: #111111;
+  font-size: 18px;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  line-height: 27px;
+  word-wrap: break-word;
+}
+
+.Author {
+  color: #111111;
+  font-size: 24px;
+  font-family: 'DM Sans';
+  font-weight: 500;
+  line-height: 36px;
+  word-wrap: break-word;
+}
+
+.JoinButton {
+  width: 157px;
+  height: 56px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background: #543EE0;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+  color: white;
+  font-size: 18px;
+  font-family: 'DM Sans';
+  font-weight: 700;
+  line-height: 27px;
+  word-wrap: break-word;
+}
+
+.BackgroundShape {
+  width: 300px;
+  height: 292px;
+  left: 84px;
+  top: 99px;
+  position: absolute;
+  background: #D9D9D9;
+  border-radius: 50%;
+}
+
+.Image {
+  width: 361px;
+  height: 361px;
+  left: 53px;
+  top: 52px;
+  position: absolute;
+}
+
+
+.NewFrame41 {
+  width: 1127px;
+  height: 412px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 120px;
+  display: inline-flex;
+}
+
+.NewFrame39 {
+  justify-content: flex-start;
+  align-items: center;
+  gap: 44px;
+  display: flex;
+}
+
+.NewFrame38 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 96px;
+  display: inline-flex;
+}
+
+.NewMaskGroup {
+  width: 154px;
+  height: 158px;
+  position: relative;
+}
+
+.NewEllipse2,
+.NewEllipse4,
+.NewEllipse5 {
+  width: 154px;
+  height: 158px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background: #D9D9D9;
+  border-radius: 9999px;
+}
+
+.NewUnsplashJzz3jwmzha,
+.NewUnsplashIeebwgy6la,
+.NewUnsplashFhxpgmdXhe {
+  width: 169px;
+  height: 169px;
+  position: absolute;
+}
+
+.NewUnsplashJzz3jwmzha {
+  left: 0;
+  top: -6px;
+}
+
+.NewUnsplashIeebwgy6la {
+  left: -7px;
+  top: 0;
+}
+
+.NewUnsplashFhxpgmdXhe {
+  left: -8px;
+  top: -6px;
+}
+
+.NewFrame24 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32px;
+  display: inline-flex;
+}
+
+.NewFrame23 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  display: flex;
+}
+
+.NewWriteReadAndConnectWithGreatMindsOnChatter {
+  width: 655px;
+  color: #111111;
+  font-size: 48px;
+  font-family: 'DM Sans';
+  font-weight: 700;
+  line-height: 72px;
+  word-wrap: break-word;
+}
+
+.NewSharePeopleYourGreatIdeasAndAlsoReadWriteUpsBasedOnYourInterestsConnectWithPeopleOfSameInterestsAndGoals {
+  width: 594px;
+  color: #111111;
+  font-size: 18px;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  line-height: 27px;
+  word-wrap: break-word;
+}
+
+.NewFrame5 {
+  width: 157px;
+  height: 56px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background: #543EE0;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+}
+
+.NewGetStarted {
+  color: white;
+  font-size: 18px;
+  font-family: 'DM Sans';
+  font-weight: 700;
+  line-height: 27px;
+  word-wrap: break-word;
+}
+
+.Frame25 {
+  width: 1440px;
+  height: 402px;
+  position: relative;
+  background: rgba(255, 237, 204, 0.50);
+}
+
+.Chatter {
+  left: 80px;
+  top: 72px;
+  position: absolute;
+  color: #543EE0;
+  font-size: 48px;
+  font-family: 'DM Sans';
+  font-weight: 700;
+  line-height: 72px;
+  word-wrap: break-word;
+}
+
+.Explore, .Support, .OfficialBlog {
+  left: 512px;
+  top: 60px;
+  position: absolute;
+  color: #111111;
+  font-size: 24px;
+  font-family: 'DM Sans';
+  font-weight: 500;
+  line-height: 36px;
+  word-wrap: break-word;
+}
+
+.Community, .SupportDocs, .EngineeringBlog, .JoinSlack, .Contact, .TrendingBlogs, .ChatterForTeams {
+  left: 512px;
+  top: 124px;
+  position: absolute;
+  color: #111111;
+  font-size: 18px;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  line-height: 27px;
+  word-wrap: break-word;
+}
+
+.SupportDocs, .JoinSlack, .Contact {
+  left: 843px;
+  top: 124px;
+}
+
+.OfficialBlog, .EngineeringBlog, .ChatterForTeams {
+  left: 1184px;
+  top: 124px;
+}
+
+.EngineeringBlog, .JoinSlack, .Contact {
+  top: 167px;
+}
+
+.TrendingBlogs, .ChatterForTeams {
+  top: 210px;
+} */
