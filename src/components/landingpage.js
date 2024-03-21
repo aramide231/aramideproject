@@ -8,14 +8,9 @@ import logo5 from "./assets/unsplash_fHXpgMd_XhE.png"
 import logo6 from "./assets/unsplash_-2vD8lIhdnw.png"
 import { useHistory } from 'react-router-dom'
 function LandingPage() {
-const history = useHistory()
 
-const handleLogin = () => {
-history.push('/login')
-
-}
-} 
-return (
+  
+  return (
     <div className="gap">
       <div className="NewFrame2">
         <div className="NewChatter">CHATTER</div>
@@ -26,7 +21,7 @@ return (
             <div className="NewContact">Contact</div>
             <div className="NewBlogs">Blogs</div>
           </div>
-          <button onClick={handleLogin}  className="NewFrame5">
+          <button   className="NewFrame5">
             <div className="NewFrame3">
               <div className="NewLogIn">Log in</div>
             </div>

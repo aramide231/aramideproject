@@ -570,3 +570,15 @@ width: auto;
   flex-direction: column;
   gap: 200px;
 }
+
+@media (max-width: 768px) {
+  .NewFrame2 {
+    flex-direction: column;
+    height: auto; 
+  }
+}
+@media (max-width: 768px) {
+  .Frame6 {
+    padding-bottom: 20px; /* Adjust for smaller screens */
+  }
+}
