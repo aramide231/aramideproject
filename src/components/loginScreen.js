@@ -22,7 +22,7 @@ function LoginScreen() {
               <div className="jug">LOG IN</div>
             </div>
             <div className="Group14">
-              <  className="Rectangle12" />
+              <div  className="Rectangle12" />
               <button  className="Rectangle13" />
             </div>
           </div>
