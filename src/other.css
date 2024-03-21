@@ -1,4 +1,16 @@
-/* .CustomSignUpScreen {
+.parent-container {
+
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 100vh; 
+}
+
+.child-div {
+  
+}
+
+.CustomSignUpScreen {
     width: 1440px;
     height: 1024px;
     position: relative;
@@ -360,4 +372,4 @@
     position: absolute;
     background: white;
   }
-   */
+  

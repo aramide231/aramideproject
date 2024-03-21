@@ -1,6 +1,19 @@
+.parent-container {
+
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 100vh; 
+}
+
+.child-div {
+  
+}
+
+
 .SignUpScreen {
-    width: 1440px;
-    height: 1024px;
+    width: 100%;
+    height: 100%;
     position: relative;
     background: white;
     
@@ -44,8 +57,7 @@
     line-height: 36px;
     word-wrap: break-word;
   }
- 
-  Define other classes similarly 
+
   .Frame43250 {
     left: 818px;
     top: 30px;
@@ -73,7 +85,7 @@
     display: flex;
   }
   
-  .Frame49, .LogIn {
+  .Frame49, .jug {
     color: #111111;
     font-size: 16px;
     font-family: 'DM Sans';

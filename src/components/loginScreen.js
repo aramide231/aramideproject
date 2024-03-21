@@ -18,7 +18,7 @@ function LoginScreen() {
           <div className="Frame43236">
             <div className="Registration">
               <div className="Frame49">REGISTER</div>
-              <div className="LogIn">LOG IN</div>
+              <div className="jug">LOG IN</div>
             </div>
             <div className="Group14">
               <button className="Rectangle12" />
