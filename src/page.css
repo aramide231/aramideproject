@@ -555,7 +555,7 @@ width: auto;
 
 .bgphoto{
   opacity: 50%;
-  width: 1263px ;
+  width: 1240px ;
   height: inherit;
  
 }
@@ -571,6 +571,8 @@ width: auto;
   gap: 200px;
 }
 
+
+
 @media (max-width: 768px) {
   .NewFrame2 {
     flex-direction: column;
@@ -579,6 +581,24 @@ width: auto;
 }
 @media (max-width: 768px) {
   .Frame6 {
-    padding-bottom: 20px; /* Adjust for smaller screens */
+
   }
+}
+.NewFrame3{
+  text-decoration: none;
+  color:inherit ;
+}
+
+.NewFrame3:hover {
+  text-decoration: none;
+}
+
+.NewSignUp{
+  text-decoration: none;
+  color:inherit ;
+}
+
+.NewHome{
+  text-decoration: none;
+  color:inherit ;
 }

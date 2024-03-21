@@ -1,18 +1,22 @@
 import React from 'react';
-import LoginScreen from "./components/loginScreen";
-import Heading from './components/header';
-import "./App.css"
-import Login from "./components/login"
-import Code from './components/code';
-import Done from './components/done';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LoginScreen from './components/loginScreen';
 import LandingPage from './components/landingpage';
+import Login from './components/login';
 
 function App() {
   return (
-    <div className="App">
- <LandingPage/>
-
-    </div>
+    <Router>
+      <Routes>
+        {/* LandingPage component will be rendered for the '/' route */}
+        <Route path="/" element={<LandingPage />} />
+        {/* Login component will be rendered for the '/login' route */}
+        <Route path="/login" element={<Login />} />
+        {/* Signup component will be rendered for the '/signup' route */}
+        <Route path="/signup" element={<LoginScreen />} />
+        {/* Add more routes as needed */}
+      </Routes>
+    </Router>
   );
 }
 

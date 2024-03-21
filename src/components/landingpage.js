@@ -6,31 +6,32 @@ import logo3 from "./assets/Mask group.png"
 import logo4 from "./assets/unsplash_iEEBWgY_6lA.png"
 import logo5 from "./assets/unsplash_fHXpgMd_XhE.png"
 import logo6 from "./assets/unsplash_-2vD8lIhdnw.png"
-import { useHistory } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import Login from './login'
 function LandingPage() {
 
   
   return (
     <div className="gap">
-      <div className="NewFrame2">
+      <nav className="NewFrame2">
         <div className="NewChatter">CHATTER</div>
         <div className="NewFrame43357">
           <div className="NewFrame1">
-            <div className="NewHome">Home</div>
+            <Link to='/' className="NewHome">Home</Link>
             <div className="NewAboutUs">About us</div>
             <div className="NewContact">Contact</div>
             <div className="NewBlogs">Blogs</div>
           </div>
-          <button   className="NewFrame5">
-            <div className="NewFrame3">
+          <div   className="NewFrame5">
+            <Link to= '/login' className="NewFrame3">
               <div className="NewLogIn">Log in</div>
-            </div>
-          </button>
+            </Link>
+          </div>
           <div className="NewFrame4">
-            <div className="NewSignUp"> <a href='./login.js'> Sign up</a></div>
+            <Link to= '/signup' className="NewSignUp">  Sign up</Link>
           </div>
         </div>
-      </div>
+      </nav>
 
       <div className="Frame14">
         <img className="bgphoto" src={logo6}></img>

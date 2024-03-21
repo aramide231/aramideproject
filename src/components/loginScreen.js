@@ -3,6 +3,7 @@ import '../login.css';
 import Logo from "./assets/unsplash_9pjBx5uVBlg.png"
 import google from "./assets/1534129544 1.png"
 import linkendn from "./assets/174857 1.png"
+import { Link } from 'react-router-dom'
 
 function LoginScreen() {
   return (
@@ -21,7 +22,7 @@ function LoginScreen() {
               <div className="jug">LOG IN</div>
             </div>
             <div className="Group14">
-              <button className="Rectangle12" />
+              <  className="Rectangle12" />
               <button  className="Rectangle13" />
             </div>
           </div>
