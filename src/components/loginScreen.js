@@ -3,7 +3,7 @@ import '../login.css';
 import Logo from "./assets/unsplash_9pjBx5uVBlg.png"
 import google from "./assets/1534129544 1.png"
 import linkendn from "./assets/174857 1.png"
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 function LoginScreen() {
   return (
